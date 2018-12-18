@@ -38,6 +38,7 @@ fn main() {
             }
             buffer[x + y * WIDTH] = 0x00010101 * (i / ITERATIONS as f64 * 255.0) as u32;
         }
+        window.update_with_buffer(&buffer).unwrap();
     }
     loop {
         window.update_with_buffer(&buffer).unwrap();
