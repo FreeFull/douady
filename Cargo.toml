@@ -6,6 +6,6 @@ license = "GPL-3.0"
 edition = "2021"
 
 [dependencies]
-rug = "1.17"
+rug = "1.17.0"
 vizia = { git = "https://github.com/vizia/vizia/" }
-imgref = "1.9"
+imgref = "1.9.4"
